@@ -41,10 +41,6 @@ def classifyTriangle(a,b,c):
     if a <= 0 or b <= 0 or c <= 0:
         return 'InvalidInput'
 
-    # This information was not in the requirements spec but
-    # is important for correctness
-    # the sum of any two sides must be strictly less than the third side
-    # of the specified shape is not a triangle
     if (a > (b + c)) or (b > (a + c)) or (c > (a + b)):
         return 'NotATriangle'
 
