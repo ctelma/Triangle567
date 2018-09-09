@@ -5,6 +5,10 @@ The primary goal of this file is to demonstrate a simple unittest implementation
 
 @author: jrr
 @author: rk
+
+@author: Caroline Telma
+Updated on September 9 2018
+
 """
 
 import unittest
