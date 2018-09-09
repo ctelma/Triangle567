@@ -1,7 +1,7 @@
 language: python
 python:
- - "3.5"
+ - "2.7.10"
 
 # command to run tests
 script:
- - python /Users/carolinetelma/Triangle567/TestTriangle.py 
+ - python /Users/carolinetelma/Triangle567/TestTriangle.py
